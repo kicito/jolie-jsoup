@@ -1,0 +1,8 @@
+lib/
+target/
+.settings/
+.classpath
+.project
+src/
+pom.xml
+.vscode/
