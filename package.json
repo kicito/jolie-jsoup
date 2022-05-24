@@ -1,0 +1,28 @@
+{
+  "name": "jolie-jsoup",
+  "description": "A html parser library for Jolie",
+  "author": {
+    "name": "Narongrit Unwerawattana",
+    "email": "narongrit.kie@gmail.com",
+    "url": "https://www.github.com/kicito"
+  },
+  "version": "0.2.0",
+  "license": "LGPL 2.1",
+  "keywords": [
+    "jolie",
+    "html parser",
+    "jsoup"
+  ],
+  "scripts": {
+    "prepack": "jpm hooks prepack",
+    "postpublish": "shx rm -rf dist"
+  },
+  "devDependencies": {
+    "shx": "^0.3.4"
+  },
+  "jpm": {
+    "jolieDependencies": {},
+    "mavenDependencies": {},
+    "mavenIndirectDependencies": {}
+  }
+}

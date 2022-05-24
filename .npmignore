@@ -4,5 +4,4 @@ target/
 .classpath
 .project
 src/
-pom.xml
 .vscode/
