@@ -15,6 +15,7 @@
   ],
   "scripts": {
     "prepack": "jpm hooks prepack",
+    "preinstall": "jpm hooks preinstall",
     "postpublish": "shx rm -rf dist"
   },
   "devDependencies": {
