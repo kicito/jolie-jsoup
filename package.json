@@ -1,5 +1,5 @@
 {
-  "name": "jolie-jsoup",
+  "name": "@jolie/jsoup",
   "description": "A html parser library for Jolie",
   "author": {
     "name": "Narongrit Unwerawattana",
