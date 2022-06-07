@@ -14,8 +14,8 @@
     "jsoup"
   ],
   "scripts": {
-    "prepack": "npx --package=@jolie/jpm@ts -- hooks:prepack",
-    "preinstall": "npx --package=@jolie/jpm@ts -- hooks:preinstall",
+    "prepack": "npx --package=@jolie/jpm@ts -- jpm hooks:prepack",
+    "preinstall": "npx --package=@jolie/jpm@ts -- jpm hooks:preinstall",
     "postpublish": "shx rm -rf dist"
   },
   "devDependencies": {
