@@ -14,8 +14,8 @@
     "jsoup"
   ],
   "scripts": {
-    "prepack": "npx --package=@jolie/jpm@ts -- jpm hooks:prepack",
-    "preinstall": "npx --package=@jolie/jpm@ts -- jpm hooks:preinstall",
+    "prepack": "npx --package=@jolie/jpm -- jpm hooks:prepack",
+    "preinstall": "npx --package=@jolie/jpm -- jpm hooks:preinstall",
     "postpublish": "shx rm -rf dist"
   },
   "devDependencies": {
@@ -23,7 +23,9 @@
   },
   "jpm": {
     "jolieDependencies": {},
-    "mavenDependencies": {},
+    "mavenDependencies": {
+      "org.jsoup:jsoup": "1.15.1"
+    },
     "mavenIndirectDependencies": {}
   }
 }

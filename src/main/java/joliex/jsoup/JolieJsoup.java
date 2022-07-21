@@ -45,7 +45,6 @@ public class JolieJsoup extends JavaService {
 
             Value value = Value.create();
             for (String s : els.eachText()) {
-                System.out.println(s);
                 value.getNewChild("elementText").add(Value.create(s));
             }
             return value;
