@@ -8,4 +8,4 @@ A [jsoup](https://jsoup.org/) Java library connector for [Jolie](https://jolie-l
 
 ## Usage
 
-See the example in <https://github.com/kicito/jolie-jsoup/blob/main/example/example.ol>.
+See the example in <https://github.com/kicito/jolie-jsoup/blob/main/examples/example.ol>.
